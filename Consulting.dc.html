@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#f7f1e6;font-family:'Public Sans',sans-serif;color:#2b2118}a{color:#d9542b;text-decoration:none}a:hover{color:#b8431f}</style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;flex-direction:column">
+
+  <!-- nav -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 56px;max-width:1200px;width:100%;margin:0 auto;box-sizing:border-box">
+    <a href="index.html" style="display:flex;align-items:center;gap:12px;color:#2b2118">
+      <span style="width:38px;height:38px;border-radius:50%;background:#d9542b;display:inline-flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 30 30" fill="none" style="transform:scaleX(-1)"><path d="M15 6.5 A 8.5 8.5 0 1 0 23.5 15" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"></path><path d="M12 3.5 L15 6.5 L12 9.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"></path></svg></span>
+      <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19px;letter-spacing:-.02em">Anti-Clockwise, LLC</span>
+    </a>
+    <div style="display:flex;align-items:center;gap:32px;font-size:15px;font-weight:600">
+      <a href="Products.dc.html" style="color:#5c4d3d" style-hover="color:#d9542b">Products</a>
+      <a href="Consulting.dc.html" style="color:#d9542b">Consulting</a>
+      <a href="About.dc.html" style="color:#5c4d3d" style-hover="color:#d9542b">About</a>
+      <a href="Contact.dc.html" style="background:#2b2118;color:#f7f1e6;padding:11px 24px;border-radius:999px;font-weight:600" style-hover="background:#d9542b;color:#fff">Contact</a>
+    </div>
+  </div>
+
+  <!-- header -->
+  <div data-screen-label="Consulting header" style="text-align:center;padding:64px 56px 56px;max-width:1200px;margin:0 auto;box-sizing:border-box">
+    <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:56px;line-height:1.05;font-weight:800;letter-spacing:-.03em;margin-bottom:20px">Consider us your <span style="color:#d9542b">player two</span>.</div>
+    <div style="font-size:18px;line-height:1.6;color:#5c4d3d;max-width:580px;margin:0 auto">Software development and general IT consulting for teams that need practical help — no jargon, no overpromising, just work that ships.</div>
+  </div>
+
+  <!-- services -->
+  <div data-screen-label="Consulting services" style="padding:0 56px 64px;display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:1200px;margin:0 auto;box-sizing:border-box">
+    <div style="background:#fffdf8;border-radius:24px;padding:38px;box-shadow:0 2px 0 #e4d9c6;display:flex;flex-direction:column;gap:16px">
+      <div style="width:54px;height:54px;border-radius:16px;background:#f3c53d;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M8 6 L3 12 L8 18 M16 6 L21 12 L16 18" stroke="#2b2118" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:24px;font-weight:800;letter-spacing:-.02em">Software development</div>
+      <div style="font-size:16px;line-height:1.6;color:#5c4d3d">From a rough idea to a shipped product. Mobile apps, web apps, internal tools, integrations — designed, built, and maintained.</div>
+      <div style="display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5">
+        <div style="display:flex;gap:12px;align-items:baseline"><span style="color:#d9542b;font-weight:800">◆</span><span>Mobile &amp; web application development</span></div>
+        <div style="display:flex;gap:12px;align-items:baseline"><span style="color:#d9542b;font-weight:800">◆</span><span>Prototypes and MVPs on a real timeline</span></div>
+        <div style="display:flex;gap:12px;align-items:baseline"><span style="color:#d9542b;font-weight:800">◆</span><span>Integrations, automation, and internal tooling</span></div>
+      </div>
+    </div>
+    <div style="background:#fffdf8;border-radius:24px;padding:38px;box-shadow:0 2px 0 #e4d9c6;display:flex;flex-direction:column;gap:16px">
+      <div style="width:54px;height:54px;border-radius:16px;background:#8fb98b;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3.2" stroke="#2b2118" stroke-width="2"></circle><path d="M12 2.8 V6 M12 18 V21.2 M21.2 12 H18 M6 12 H2.8 M18.5 5.5 L16.2 7.8 M7.8 16.2 L5.5 18.5 M18.5 18.5 L16.2 16.2 M7.8 7.8 L5.5 5.5" stroke="#2b2118" stroke-width="2" stroke-linecap="round"></path></svg></div>
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:24px;font-weight:800;letter-spacing:-.02em">General IT</div>
+      <div style="font-size:16px;line-height:1.6;color:#5c4d3d">The unglamorous stuff that keeps a business running — set up right, documented, and off your plate.</div>
+      <div style="display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5">
+        <div style="display:flex;gap:12px;align-items:baseline"><span style="color:#d9542b;font-weight:800">◆</span><span>Infrastructure setup and cleanup</span></div>
+        <div style="display:flex;gap:12px;align-items:baseline"><span style="color:#d9542b;font-weight:800">◆</span><span>Workflow, email, and tooling administration</span></div>
+        <div style="display:flex;gap:12px;align-items:baseline"><span style="color:#d9542b;font-weight:800">◆</span><span>Troubleshooting the tickets nobody else will take</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- how we work -->
+  <div data-screen-label="How we work" style="max-width:1088px;width:calc(100% - 112px);margin:0 auto 64px;background:#2b2118;border-radius:28px;padding:52px 56px;color:#f7f1e6;box-sizing:border-box">
+    <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:30px;font-weight:800;letter-spacing:-.02em;margin-bottom:32px;text-align:center">How a project plays out</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:15px;font-weight:800;color:#f3c53d">1 · Setup</div>
+        <div style="font-size:15.5px;line-height:1.6;color:#cbbfa8">A free intro call. We learn the rules of your game — goals, constraints, what done looks like.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:15px;font-weight:800;color:#f3c53d">2 · Play</div>
+        <div style="font-size:15.5px;line-height:1.6;color:#cbbfa8">Short turns, visible progress. You see working software early and often, not a big reveal at the end.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:15px;font-weight:800;color:#f3c53d">3 · Win condition</div>
+        <div style="font-size:15.5px;line-height:1.6;color:#cbbfa8">We ship, document, and hand over cleanly — with support after launch if you want it.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div data-screen-label="Consulting CTA" style="text-align:center;padding:0 56px 72px;max-width:1200px;margin:0 auto;box-sizing:border-box">
+    <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:26px;font-weight:800;letter-spacing:-.02em;margin-bottom:10px">Roll for initiative.</div>
+    <div style="font-size:16px;color:#5c4d3d;margin-bottom:22px">Tell us what you're up against — the first conversation is free.</div>
+    <a href="Contact.dc.html" style="display:inline-block;background:#d9542b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;font-size:16px" style-hover="background:#b8431f">Start a conversation</a>
+  </div>
+
+  <!-- footer -->
+  <div style="margin-top:auto;border-top:2px solid #e4d9c6">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 56px;font-size:13.5px;font-weight:600;color:#a08a6e;max-width:1200px;margin:0 auto;box-sizing:border-box">
+      <span>© 2026 Anti-Clockwise, LLC</span>
+      <div style="display:flex;gap:24px">
+        <a href="Products.dc.html" style="color:#a08a6e" style-hover="color:#d9542b">Products</a>
+        <a href="Consulting.dc.html" style="color:#a08a6e" style-hover="color:#d9542b">Consulting</a>
+        <a href="About.dc.html" style="color:#a08a6e" style-hover="color:#d9542b">About</a>
+        <a href="Contact.dc.html" style="color:#a08a6e" style-hover="color:#d9542b">Contact</a>
+      </div>
+      <span>Play nice. Build nicer.</span>
+    </div>
+  </div>
+</div>
+
+</x-dc>
+</body>
+</html>
